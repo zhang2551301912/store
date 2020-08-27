@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customer-api" />
+        <module name="stock-api" />
+        <module name="user-api" />
+        <module name="user-system" />
+        <module name="store" />
+        <module name="stock-system" />
+        <module name="customer-system" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-api" target="1.8" />
+      <module name="admin-system" target="1.8" />
+      <module name="customer-api" target="1.8" />
+      <module name="customer-system" target="1.8" />
+      <module name="order-api" target="1.8" />
+      <module name="order-system" target="1.8" />
+      <module name="stock-api" target="1.8" />
+      <module name="stock-system" target="1.8" />
+      <module name="store" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-api" options="-parameters" />
+      <module name="admin-system" options="-parameters" />
+      <module name="customer-api" options="-parameters" />
+      <module name="customer-system" options="-parameters" />
+      <module name="order-api" options="-parameters" />
+      <module name="order-system" options="-parameters" />
+      <module name="stock-api" options="-parameters" />
+      <module name="stock-system" options="-parameters" />
+      <module name="store" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-system" options="-parameters" />
+    </option>
+  </component>
+</project>
